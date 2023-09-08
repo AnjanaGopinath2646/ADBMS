@@ -1,4 +1,4 @@
- create or replace  FUNCTION findmax(x NUMBER, y  NUMBER)
+ create or replace  FUNCTION findmax(x IN NUMBER, y IN NUMBER)
       RETURN NUMBER
    IS
       z number
