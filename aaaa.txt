@@ -1,0 +1,17 @@
+DECLARE
+   a NUMBER;
+   b NUMBER;
+   c NUMBER;
+
+BEGIN
+  
+   a := &a;
+   b := &b;
+   
+  
+   c :=findmax(a,b);
+   
+   
+   DBMS_OUTPUT.PUT_LINE('Maximum : ' || c);
+END;
+/
